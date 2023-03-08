@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%; /*10px/16px*/
+}
+
+    
+header{              /* O header ocupará toda a página inicial, dando origem a barra de rolagem */
+    height: 100vh;
+    background-image: url('../images/lars-kienle-IlxX7xnbRF8-unsplash.jpg');
+    background-size: cover;
+    color: #FFF;
+    /*shorthand */
+    padding:21rem 11rem
+}
+
+h1{
+    font-size: 3.75rem;
+    font-weight: 900;
+    font-family: 'Poppins';
+}
+
+span{
+    font-family: 'Monteserrat';
+    font-size: 4.5rem;
+}
+
+.botao{
+    padding: 1.4rem 11rem;
+    background: linear-gradient(90deg, #C31432 0%, #240B36 100%);
+    border-radius: 1rem;
+    width: 17.4rem;
+    height: 4.8rem;
+
+    font-family: 'Monteserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+    /* identical to box height */
+    text-decoration: none;
+
+
+    color: #FDFFFE;
+
+    text-shadow: 0 2rem 4rem #000000;
+}
